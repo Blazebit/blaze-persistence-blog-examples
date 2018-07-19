@@ -42,7 +42,7 @@
     <description>Blazebit Blaze-Persistence Blog Examples</description>
 
     <modules>
-        <module>entity-views-subview-from-subqueries</module>
+        <module>entity-views-correlate-unrelated-entities</module>
     </modules>
 
     <licenses>
