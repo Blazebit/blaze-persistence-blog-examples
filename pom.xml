@@ -43,6 +43,7 @@
 
     <modules>
         <module>entity-views-correlate-unrelated-entities</module>
+        <module>entity-views-filter-and-sorter</module>
     </modules>
 
     <licenses>
