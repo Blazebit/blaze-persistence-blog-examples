@@ -25,7 +25,6 @@
     </parent>
 	
     <artifactId>entity-views-dbms-array</artifactId>
-    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Blazebit Persistence Entity Views - DBMS array as collection</name>

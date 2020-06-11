@@ -25,7 +25,6 @@
     </parent>
 	
     <artifactId>entity-views-filter-and-sorter</artifactId>
-    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Blazebit Persistence Entity Views - Filter and sorter</name>

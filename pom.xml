@@ -34,7 +34,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         
-        <version.blaze-persistence>1.2.1</version.blaze-persistence>
+        <version.blaze-persistence>1.5.0-Alpha4</version.blaze-persistence>
     </properties>
 
     <name>Blazebit Blaze-Persistence Blog Examples</name>
@@ -45,6 +45,7 @@
         <module>entity-views-correlate-unrelated-entities</module>
         <module>entity-views-filter-and-sorter</module>
         <module>entity-views-dbms-array</module>
+        <module>entity-views-custom-classes</module>
     </modules>
 
     <licenses>
@@ -65,5 +66,25 @@
         <url>git@github.com:Blazebit/blaze-persistence.git</url>
         <tag>HEAD</tag>
     </scm>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.0</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.0.0-M3</version>
+                    <configuration>
+                        <trimStackTrace>false</trimStackTrace>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 	
 </project>
